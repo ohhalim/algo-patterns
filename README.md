@@ -1,10 +1,12 @@
 # algo-patterns
 
-코테 커트라인 통과용 최소 패턴 훈련 -- 5패턴 25문제
+코테 커트라인 통과용 최소 패턴 훈련 -- 6패턴 30문제
 
 ## 구조
 
 ```
+00-array/                    # 5문제 - 순회, in-place, prefix sum
+  └── array_problems.ipynb
 01-hash/                     # 5문제 - 빠른 조회, 빈도 세기
   └── hash_problems.ipynb
 02-two-pointer/              # 5문제 - 양끝 조이기, 슬라이딩 윈도우
@@ -17,9 +19,18 @@
   └── binary_search_problems.ipynb
 ```
 
-총 25문제. 이게 최소다.
+총 30문제. 이게 최소다.
 
 ## 문제 목록
+
+### 00-array
+| # | 문제 | 난이도 | 핵심 |
+|---|------|--------|------|
+| 1 | Remove Duplicates (LC 26) | Easy | in-place 덮어쓰기 |
+| 2 | Best Time to Buy and Sell Stock (LC 121) | Easy | 최솟값 추적 |
+| 3 | Rotate Array (LC 189) | Medium | 뒤집기 3번 트릭 |
+| 4 | Product Except Self (LC 238) | Medium | prefix/suffix 곱 |
+| 5 | Merge Intervals (LC 56) | Medium | 정렬 후 병합 |
 
 ### 01-hash
 | # | 문제 | 난이도 | 핵심 |
