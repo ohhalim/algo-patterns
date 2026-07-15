@@ -37,6 +37,7 @@ venv.bak/
 # VS Code / IDEs
 .vscode/
 .idea/
+out/
 .spyderproject
 .spyproject
 
