@@ -16,7 +16,7 @@ public class clon_ContainsDuplicate {
                 return true;
             }
             // 존재하지 않는다면 현재 숫자를Set에 추가합니다
-            ssen.add(num);
+            seen.add(num);
         }
         // 반복문을 다 돌았는데도 중복이 없다면 false를 반환합니다
         return false;
