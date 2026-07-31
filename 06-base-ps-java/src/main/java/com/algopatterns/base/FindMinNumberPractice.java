@@ -36,7 +36,7 @@ public class FindMinNumberPractice {
     public static void main(String[] args) {
         // List.of(3, -8, 2, 5)로 목록을 만든다.
         // 객체를 만들고 메서드를 호출한 뒤 결과를 출력한다.
-        List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
+            List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
         FindMinNumberPractice practice = new FindMinNumberPractice();
         System.out.println(practice.findMinNumber(numbers));
