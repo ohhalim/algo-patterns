@@ -16,7 +16,7 @@ public class FindMaxArrayPractice {
      *
      * 힌트:
      * - 첫 번째 값을 max의 초기값으로 사용한다.
-     * - 현재 숫자가 max보다 크면 max를 현재 숫자로 바꾼다.
+     * - 현재 숫자가 max보다 크면 max를 현재 숫응 자로 바꾼다.
      */
     public int findMax(int[] numbers) {
         // 1. 배열의 첫 번째 값을 max에 저장한다.
